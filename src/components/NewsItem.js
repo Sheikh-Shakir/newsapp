@@ -7,7 +7,7 @@ export class NewsItem extends Component {
 		return (
 
 			<div className='my-3'>
-				<div className="card" style={{ width: "18rem" }}>
+				<div className="card" >
 					<img src={!imageUrl ? 'https://fastly.picsum.photos/id/20/3670/2462.jpg?hmac=CmQ0ln-k5ZqkdtLvVO23LjVAEabZQx2wOaT4pyeG10I' : imageUrl} className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">{title}...</h5>

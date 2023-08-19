@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import News from './components/News';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export default class App extends Component {
-  pageSize = 20;
+  pageSize = 15;
   render() {
     return (
       <div>
